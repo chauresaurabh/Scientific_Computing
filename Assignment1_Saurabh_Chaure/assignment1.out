@@ -1,0 +1,47 @@
+----------------------------------------
+Begin PBS Prologue Wed Sep 24 12:33:54 PDT 2014
+Job ID:            9675486.hpc-pbs.hpcc.usc.edu
+Username:          chaure
+Group:             csci-ar
+Name:              assignment1
+Queue:             quick
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc1917 
+TMPDIR:            /tmp/9675486.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Wed Sep 24 12:33:54 PDT 2014
+----------------------------------------
+Node 1 has 1.000000e+00
+Node 2 has 2.000000e+00
+Node 0 has 0.000000e+00
+ 4 - Processor Job,	 TOTAL SUM :6.000000 
+GLOBAL AVERAGE = 1.500000
+
+
+Node 3 has 3.000000e+00
+Node 1 has 1.000000e+00
+Node 2 has 2.000000e+00
+Node 3 has 3.000000e+00
+Node 4 has 4.000000e+00
+Node 5 has 5.000000e+00
+Node 6 has 6.000000e+00
+Node 0 has 0.000000e+00
+Node 7 has 7.000000e+00
+ 8 - Processor Job,	 TOTAL SUM :28.000000 
+GLOBAL AVERAGE = 3.500000
+
+
+----------------------------------------
+Begin PBS Epilogue Wed Sep 24 12:33:56 PDT 2014
+Job ID:           9675486.hpc-pbs.hpcc.usc.edu
+Username:         chaure
+Group:            csci-ar
+Job Name:         assignment1
+Session:          22132
+Limits:           neednodes=1:ppn=2,nodes=1:ppn=2,walltime=00:00:59
+Resources:        cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:02
+Queue:            quick
+Shared Access:    no
+Account:          lc_an2
+End PBS Epilogue Wed Sep 24 12:33:56 PDT 2014
+----------------------------------------

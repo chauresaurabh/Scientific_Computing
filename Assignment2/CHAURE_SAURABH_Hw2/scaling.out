@@ -1,0 +1,51 @@
+----------------------------------------
+Begin PBS Prologue Wed Oct  1 22:13:39 PDT 2014
+Job ID:            9739392.hpc-pbs.hpcc.usc.edu
+Username:          chaure
+Group:             csci-ar
+Name:              scaling
+Queue:             quick
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc2003 
+TMPDIR:            /tmp/9739392.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Wed Oct  1 22:13:39 PDT 2014
+----------------------------------------
+ FIXED SCALING - PI VALUE with 8 processors : 3.141593
+ FIXED SCALING - RUNTIME OF THE PROGRAM : 0.074268 
+
+ FIXED SCALING - PI VALUE with 4 processors : 3.141593
+ FIXED SCALING - RUNTIME OF THE PROGRAM : 0.072562 
+
+ FIXED SCALING - PI VALUE with 2 processors : 3.141593
+ FIXED SCALING - RUNTIME OF THE PROGRAM : 0.137900 
+
+ FIXED SCALING - PI VALUE with 1 processors : 3.141593
+ FIXED SCALING - RUNTIME OF THE PROGRAM : 0.275664 
+
+ ISOGRANULAR SCALING -  VALUE with 8 processors : 3.141593
+ ISOGRANULAR SCALING -  RUNTIME OF THE PROGRAM : 0.286091 
+
+ ISOGRANULAR SCALING -  VALUE with 4 processors : 3.141593
+ ISOGRANULAR SCALING -  RUNTIME OF THE PROGRAM : 0.277799 
+
+ ISOGRANULAR SCALING -  VALUE with 2 processors : 3.141593
+ ISOGRANULAR SCALING -  RUNTIME OF THE PROGRAM : 0.275738 
+
+ ISOGRANULAR SCALING -  VALUE with 1 processors : 3.141593
+ ISOGRANULAR SCALING -  RUNTIME OF THE PROGRAM : 0.275684 
+
+----------------------------------------
+Begin PBS Epilogue Wed Oct  1 22:13:48 PDT 2014
+Job ID:           9739392.hpc-pbs.hpcc.usc.edu
+Username:         chaure
+Group:            csci-ar
+Job Name:         scaling
+Session:          4320
+Limits:           neednodes=1:ppn=8,nodes=1:ppn=8,walltime=00:00:59
+Resources:        cput=00:00:06,mem=10284kb,vmem=188712kb,walltime=00:00:09
+Queue:            quick
+Shared Access:    no
+Account:          lc_an2
+End PBS Epilogue Wed Oct  1 22:13:48 PDT 2014
+----------------------------------------

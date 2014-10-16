@@ -1,0 +1,39 @@
+----------------------------------------
+Begin PBS Prologue Tue Sep 30 16:26:55 PDT 2014
+Job ID:            9732781.hpc-pbs.hpcc.usc.edu
+Username:          chaure
+Group:             csci-ar
+Name:              iso
+Queue:             quick
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc1735 
+TMPDIR:            /tmp/9732781.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Tue Sep 30 16:26:55 PDT 2014
+----------------------------------------
+ PI VALUE with 8 processors : 3.141593
+ RUNTIME OF THE PROGRAM : 1.800710 
+
+ PI VALUE with 4 processors : 3.141593
+ RUNTIME OF THE PROGRAM : 0.908670 
+
+ PI VALUE with 2 processors : 3.141593
+ RUNTIME OF THE PROGRAM : 0.465410 
+
+ PI VALUE with 1 processors : 3.141593
+ RUNTIME OF THE PROGRAM : 0.234259 
+
+----------------------------------------
+Begin PBS Epilogue Tue Sep 30 16:27:03 PDT 2014
+Job ID:           9732781.hpc-pbs.hpcc.usc.edu
+Username:         chaure
+Group:            csci-ar
+Job Name:         iso
+Session:          21293
+Limits:           neednodes=1:ppn=1,nodes=1:ppn=1,walltime=00:00:59
+Resources:        cput=00:00:00,mem=47776kb,vmem=2048408kb,walltime=00:00:08
+Queue:            quick
+Shared Access:    no
+Account:          lc_an2
+End PBS Epilogue Tue Sep 30 16:27:03 PDT 2014
+----------------------------------------

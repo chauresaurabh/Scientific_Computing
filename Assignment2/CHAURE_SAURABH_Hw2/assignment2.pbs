@@ -1,0 +1,20 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=8,arch=x86_64
+#PBS -l walltime=00:00:59
+#PBS -o scaling.out
+#PBS -j oe
+#PBS -N scaling
+#PBS -A lc_an2
+WORK_HOME=/home/rcf-40/chaure/assignment2
+cd $WORK_HOME
+mpirun -np 8 ./fixed_scaling
+mpirun -np 4 ./fixed_scaling
+mpirun -np 2 ./fixed_scaling
+mpirun -np 1 ./fixed_scaling
+
+
+mpirun -np 8 ./isogranular_scaling
+mpirun -np 4 ./isogranular_scaling
+mpirun -np 2 ./isogranular_scaling
+mpirun -np 1 ./isogranular_scaling
+

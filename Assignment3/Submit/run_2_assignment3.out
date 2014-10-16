@@ -1,0 +1,33 @@
+----------------------------------------
+Begin PBS Prologue Wed Oct  8 19:04:53 PDT 2014
+Job ID:            9778725.hpc-pbs.hpcc.usc.edu
+Username:          chaure
+Group:             csci-ar
+Name:              assignment3
+Queue:             quick
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc1741 hpc2306 hpc2324 hpc2513 
+PVFS:              /scratch (247G), /staging (328T)
+TMPDIR:            /tmp/9778725.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Wed Oct  8 19:05:11 PDT 2014
+----------------------------------------
+al = 5.129928e+00 5.129928e+00 5.129928e+00
+lc = 2 2 2
+rc = 2.564964e+00 2.564964e+00 2.564964e+00
+nglob = 1728
+CPU & COMT = 5.595042e+00 3.351732e+00
+----------------------------------------
+Begin PBS Epilogue Wed Oct  8 19:05:19 PDT 2014
+Job ID:           9778725.hpc-pbs.hpcc.usc.edu
+Username:         chaure
+Group:            csci-ar
+Job Name:         assignment3
+Session:          5055
+Limits:           neednodes=4:ppn=4,nodes=4:ppn=4,walltime=00:00:59
+Resources:        cput=00:00:16,mem=107360kb,vmem=2412332kb,walltime=00:00:08
+Queue:            quick
+Shared Access:    no
+Account:          lc_an2
+End PBS Epilogue Wed Oct  8 19:05:26 PDT 2014
+----------------------------------------

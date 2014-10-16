@@ -1,0 +1,32 @@
+----------------------------------------
+Begin PBS Prologue Tue Sep 30 00:15:52 PDT 2014
+Job ID:            9729408.hpc-pbs.hpcc.usc.edu
+Username:          chaure
+Group:             csci-ar
+Name:              pi
+Queue:             quick
+Shared Access:     no
+All Cores:         no
+Nodes:             hpc3247 
+TMPDIR:            /tmp/9729408.hpc-pbs.hpcc.usc.edu
+End PBS Prologue Tue Sep 30 00:15:52 PDT 2014
+----------------------------------------
+PI = 3.141593
+--------------------------------------------------------------------------
+orterun.bin noticed that the job aborted, but has no info as to the process
+that caused that situation.
+--------------------------------------------------------------------------
+----------------------------------------
+Begin PBS Epilogue Tue Sep 30 00:15:52 PDT 2014
+Job ID:           9729408.hpc-pbs.hpcc.usc.edu
+Username:         chaure
+Group:            csci-ar
+Job Name:         pi
+Session:          7183
+Limits:           neednodes=1:ppn=2,nodes=1:ppn=2,walltime=00:00:59
+Resources:        cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:00
+Queue:            quick
+Shared Access:    no
+Account:          lc_an2
+End PBS Epilogue Tue Sep 30 00:15:52 PDT 2014
+----------------------------------------
